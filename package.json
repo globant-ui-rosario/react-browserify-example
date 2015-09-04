@@ -1,0 +1,41 @@
+{
+  "name": "react-browserify-example",
+  "version": "1.0.0",
+  "description": "ReactJS Example application, integrated with gulp + browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "tests are not developed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/troianoandres/react-browserify-example.git"
+  },
+  "keywords": [
+    "ReactJS"
+  ],
+  "author": "Troiano Andres",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/troianoandres/react-browserify-example/issues"
+  },
+  "homepage": "https://github.com/troianoandres/react-browserify-example",
+  "devDependencies": {
+    "browser-sync": "^2.4.0",
+    "browserify": "^9.0.3",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-compile-handlebars": "^0.5.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-sass": "^1.3.3",
+    "reactify": "^1.1.0",
+    "run-sequence": "^1.1.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.3.5",
+    "classnames": "^2.1.3",
+    "jquery": "^2.1.3",
+    "lodash": "^3.10.1",
+    "react": "0.13.1"
+  }
+}
